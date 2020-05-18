@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstScreen">
+
+    <TextView
+        android:id="@+id/s_camera2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="12dp"
+        android:text="사진으로 검색"
+        android:textColor="#ff000000"
+        app:layout_constraintBottom_toBottomOf="@+id/camera2"
+        app:layout_constraintEnd_toEndOf="@+id/camera2" />
+
+    <ImageView
+        android:id="@+id/pen"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sign" />
+
+    <ImageView
+        android:id="@+id/camera2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="236dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camera" />
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="416dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clock" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="408dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/preference2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/preference" />
+
+    <ImageView
+        android:id="@+id/medicine4"
+        android:layout_width="148dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/medicine" />
+
+    <TextView
+        android:id="@+id/search1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="12dp"
+        android:text="사진으로 검색"
+        app:layout_constraintBottom_toBottomOf="@+id/camera2"
+        app:layout_constraintEnd_toEndOf="@+id/camera2" />
+
+    <TextView
+        android:id="@+id/search2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="12dp"
+        android:text="식별표시 검색"
+        android:textColor="#ff000000"
+        app:layout_constraintBottom_toBottomOf="@+id/pen"
+        app:layout_constraintEnd_toEndOf="@+id/pen" />
+
+    <TextView
+        android:id="@+id/search3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="약 복용 스케줄"
+        android:textColor="#ff000000"
+        app:layout_constraintEnd_toEndOf="@+id/clock"
+        app:layout_constraintTop_toBottomOf="@+id/clock" />
+
+    <TextView
+        android:id="@+id/search4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="의약품 검색"
+        android:textColor="#ff000000"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="@+id/search" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

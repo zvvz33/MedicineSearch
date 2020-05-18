@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_shape_list">
+        <item>원형</item>
+        <item>장방형</item>
+        <item>삼각형</item>
+        <item>사각형</item>
+        <item>오각형</item>
+        <item>육각형</item>
+        <item>팔각형</item>
+    </string-array>
+</resources>

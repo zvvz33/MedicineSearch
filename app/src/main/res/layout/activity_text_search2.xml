@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextSearch2">
+
+    <Button
+        android:id="@+id/n_button2"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="488dp"
+        android:text="검색하기"
+        android:background="@drawable/controller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ex)199002729"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ex)19900201"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+    <TextView
+        android:id="@+id/n_search1"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="제품명"
+        android:textColor="#ff000000"
+        app:layout_constraintEnd_toStartOf="@+id/editText1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="제품명을 입력하세요"
+        android:privateImeOptions="defaultInputmode=korean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/n_search2"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="회사명"
+        android:textColor="#ff000000"
+        android:privateImeOptions="defaultInputmode=korean"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/n_search1"
+        app:layout_constraintTop_toBottomOf="@+id/n_search1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="회사명을 입력하세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+    <TextView
+        android:id="@+id/n_search3"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="표준코드"
+        android:textColor="#ff000000"
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/n_search2"
+        app:layout_constraintTop_toBottomOf="@+id/n_search2" />
+
+    <TextView
+        android:id="@+id/n_search4"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="품목기준코드"
+        android:textColor="#ff000000"
+        app:layout_constraintStart_toStartOf="@+id/n_search3"
+        app:layout_constraintTop_toBottomOf="@+id/n_search3" />
+
+    <TextView
+        android:id="@+id/n_search5"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="허가일자"
+        android:textColor="#ff000000"
+        app:layout_constraintStart_toStartOf="@+id/n_search4"
+        app:layout_constraintTop_toBottomOf="@+id/n_search4" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ex)8806433003104"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

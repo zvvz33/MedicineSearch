@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_form_list">
+        <item>정제형</item>
+        <item>연질캡슐제</item>
+        <item>경질캡슐제</item>
+        <item>기타</item>
+    </string-array>
+</resources>
